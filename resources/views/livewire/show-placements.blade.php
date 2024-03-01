@@ -23,9 +23,9 @@
     <div class="site-section">
         <div class="container">
             <div class="row">
+                @if ($placements->isNotEmpty())
                 @foreach ($placements as $placement)
                 <div class="col-lg-4 col-md-6 mb-4">
-                    {{-- @if ($placements->isNotEmpty()) --}}
                     <div class="course-1-item">
                         <figure class="thumnail">
                             <a href="course-single.html"><img src="{{ asset('front/images/course_1.jpg') }}" alt="Image" class="img-fluid"></a>
@@ -40,9 +40,9 @@
                             <p><a target="blank" href="{{ $placement->link }}" class="btn btn-primary rounded-0 px-4">Register</a></p>
                         </div>
                     </div>  
-                    {{-- @endif --}}
                 </div>
                 @endforeach
+                @endif
             </div>
         </div>
     </div>

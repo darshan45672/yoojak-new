@@ -5,7 +5,7 @@
         <div class="col-lg-9">
            <div class="section-heading">
             <h2 class="text-black">News &amp; Updates</h2>
-            <a href="#">Read All News</a>
+            <a href="{{ route('show-Placement') }}">See all placement updates</a>
           </div>
           <div class="row">
             <div class="col-lg-6">
