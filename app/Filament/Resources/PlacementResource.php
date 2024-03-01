@@ -30,7 +30,7 @@ class PlacementResource extends Resource
                 TextInput::make('company_name')->label('Company Name')->required(),
                 TextInput::make('job_role')->label('Job Role')->required(),
                 TextInput::make('package')->label('Package Offered')->required(),
-                TextInput::make('date')->label('Date of Placement')->required(),
+                TextInput::make('date')->placeholder('YYYY/MM/DD')->label('Date of Placement')->required(),
                 TextInput::make('short_desc')->label('Short Description')->required(),
                 TextInput::make('link')->label('Registeration Link')->required(),
                 RichEditor::make('description')->label('Description')->columnSpan(2),

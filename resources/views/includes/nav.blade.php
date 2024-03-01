@@ -43,7 +43,7 @@
                 </ul>
               </li>
               <li>
-                <a href="admissions.html" class="nav-link text-left">Placment</a>
+                <a href="{{ route('show-Placement') }}" class="nav-link text-left">Placment</a>
               </li>
               <li>
                 <a href="courses.html" class="nav-link text-left">Placed Students</a>
