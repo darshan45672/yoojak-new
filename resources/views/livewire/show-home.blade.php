@@ -46,6 +46,7 @@
                 </div>
               </div>
             </div>
+
             <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
               <div class="feature-1 border">
                 <div class="icon-wrapper bg-primary">
@@ -58,6 +59,7 @@
                 </div>
               </div> 
             </div>
+
             <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
               <div class="feature-1 border">
                 <div class="icon-wrapper bg-primary">
@@ -231,7 +233,7 @@
           </div>
         </div>
       </div> 
-      @include('includes.footer')
+      {{-- @include('includes.footer') --}}
     </div>
     <!-- .site-wrap -->
 </div>
