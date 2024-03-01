@@ -9,7 +9,7 @@ class ShowPlacements extends Component
 {
     public function render()
     {
-        $placements = Placement::orderBy('date','DESC')->first();
+        $placements = Placement::orderBy('date','DESC')->get();
         return view('livewire.show-placements',[
             'placements' => $placements
         ]);
