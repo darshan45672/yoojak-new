@@ -26,7 +26,7 @@
       <div class="d-flex align-items-center">
         <div class="site-logo">
           <a href="{{ route('home') }}" class="d-block">
-            <img src="{{ asset('front/images/logo.jpg') }}" alt="Image" class="img-fluid">
+            <img src="{{ asset('front/images/logo-dark.png') }}" alt="Image" class="img-fluid"  style="height: 30px">
           </a>
         </div>
         <div class="mr-auto">
@@ -38,8 +38,8 @@
               <li class="has-children">
                 <a href="about.html" class="nav-link text-left">About Us</a>
                 <ul class="dropdown">
+                  <li><a href="https://ajiet.edu.in/">Our Institution</a></li>
                   <li><a href="teachers.html">Our Placements</a></li>
-                  <li><a href="about.html">Our Institution</a></li>
                 </ul>
               </li>
               <li>
@@ -57,9 +57,9 @@
         </div>
         <div class="ml-auto">
           <div class="social-wrap">
-            <a href="#"><span class="icon-facebook"></span></a>
-            <a href="#"><span class="icon-twitter"></span></a>
-            <a href="#"><span class="icon-linkedin"></span></a>
+            <a href="https://www.linkedin.com/company/dev-nation/mycompany/" target="blank"><span class="icon-linkedin"></span></a>
+            <a href="https://www.instagram.com/devnationajiet?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="blank"><span class="icon-instagram"></span></a>
+            <a href="https://github.com/Ajiet-DevNation" target="blank"><span class="icon-github"></span></a>
 
             <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
               class="icon-menu h3"></span></a>
