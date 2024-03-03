@@ -43,13 +43,13 @@
                 </ul>
               </li>
               <li>
-                <a href="{{ route('show-Placement') }}" class="nav-link text-left">Placment</a>
+                <a href="{{ route('show-Placement') }}" class="nav-link text-left">Placement</a>
               </li>
               <li>
-                <a href="courses.html" class="nav-link text-left">Placed Students</a>
+                <a href="{{ route('show-PlacedStudent') }}" class="nav-link text-left">Placed Students</a>
               </li>
               <li>
-                  <a href="contact.html" class="nav-link text-left">Contact</a>
+                  <a href="{{ route('contact') }}" class="nav-link text-left">Contact</a>
                 </li>
             </ul>                                                                                                                                                                                                                                                                                          </ul>
           </nav>
