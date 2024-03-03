@@ -1,6 +1,7 @@
 <?php
 
 use App\Livewire\ShowHome;
+use App\Livewire\ShowPlacedStudents;
 use App\Livewire\ShowPlacements;
 use Illuminate\Support\Facades\Route;
 
@@ -22,3 +23,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',ShowHome::class)->name('home');
 Route::get('/placement',ShowPlacements::class)->name('show-Placement');
+Route::get('/placed-students',ShowPlacedStudents::class)->name('show-PlacedStudent');
