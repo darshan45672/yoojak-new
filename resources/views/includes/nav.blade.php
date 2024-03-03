@@ -49,7 +49,7 @@
                 <a href="{{ route('show-PlacedStudent') }}" class="nav-link text-left">Placed Students</a>
               </li>
               <li>
-                  <a href="contact.html" class="nav-link text-left">Contact</a>
+                  <a href="{{ route('contact') }}" class="nav-link text-left">Contact</a>
                 </li>
             </ul>                                                                                                                                                                                                                                                                                          </ul>
           </nav>
