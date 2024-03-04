@@ -29,7 +29,7 @@
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="course-1-item">
                         <figure class="thumnail">
-                            <a href="course-single.html"><img src="{{ asset('front/images/course_1.jpg') }}" alt="Image"
+                            <a href="course-single.html"><img src="{{ asset('storage/' .$placedStudent->image) }}" alt="Image"
                                     class="img-fluid"></a>
                             <div class="price">{{ $placedStudent->package }}</div>
                             <div class="category text-center">

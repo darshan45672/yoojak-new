@@ -36,10 +36,10 @@
                 <a href="{{ route('home') }}" class="nav-link text-left">Home</a>
               </li>
               <li class="has-children">
-                <a href="about.html" class="nav-link text-left">About Us</a>
+                <a href="{{ route('about-us') }}" class="nav-link text-left">About Us</a>
                 <ul class="dropdown">
-                  <li><a href="https://ajiet.edu.in/">Our Institution</a></li>
-                  <li><a href="teachers.html">Our Placements</a></li>
+                  <li><a target="blank" href="https://ajiet.edu.in/">Our Institution</a></li>
+                  <li><a href="{{ route('about-our-placement') }}">Our Placements</a></li>
                 </ul>
               </li>
               <li>
