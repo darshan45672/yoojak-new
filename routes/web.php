@@ -1,5 +1,7 @@
 <?php
 
+use App\Livewire\ShowAboutPlacement;
+use App\Livewire\ShowAboutUs;
 use App\Livewire\ShowContactPage;
 use App\Livewire\ShowHome;
 use App\Livewire\ShowPlacedStudents;
@@ -26,3 +28,5 @@ Route::get('/',ShowHome::class)->name('home');
 Route::get('/placement',ShowPlacements::class)->name('show-Placement');
 Route::get('/placed-students',ShowPlacedStudents::class)->name('show-PlacedStudent');
 Route::get('/contact-us',ShowContactPage::class)->name('contact');
+Route::get('/about-us',ShowAboutUs::class)->name('about-us');
+Route::get('/about-our-placement',ShowAboutPlacement::class)->name('about-our-placement');
