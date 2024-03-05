@@ -78,22 +78,7 @@
 
       @include('includes.placedStudents')
   
-      <div class="section-bg style-1" style="background-image: url('images/about_1.jpg');">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4">
-              <h2 class="section-title-underline style-2">
-                <span>About Our University</span>
-              </h2>
-            </div>
-            <div class="col-lg-8">
-              <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nesciunt quaerat ad reiciendis perferendis voluptate fugiat sunt fuga error totam.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus assumenda omnis tempora ullam alias amet eveniet voluptas, incidunt quasi aut officiis porro ad, expedita saepe necessitatibus rem debitis architecto dolore? Nam omnis sapiente placeat blanditiis voluptas dignissimos, itaque fugit a laudantium adipisci dolorem enim ipsum cum molestias? Quod quae molestias modi fugiat quisquam. Eligendi recusandae officiis debitis quas beatae aliquam?</p>
-              <p><a target="blank" href="https://ajiet.edu.in/">Read more</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
+      @livewire('about-us')
   
       <!-- // 05 - Block -->
     <div class="site-section">
@@ -105,88 +90,8 @@
               </h2>
             </div>
           </div>
-  
-  
-          <div class="owl-slide owl-carousel">
-            <div class="ftco-testimonial-1">
-              <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                <img src="{{ asset('front/images/person_1.jpg')}}" alt="Image" class="img-fluid mr-3">
-                <div>
-                  <h3>Allison Holmes</h3>
-                  <span>Designer</span>
-                </div>
-              </div>
-              <div>
-                <p>&ldquo;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!&rdquo;</p>
-              </div>
-            </div>
-  
-            <div class="ftco-testimonial-1">
-              <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                <img src="{{ asset('front/images/person_2.jpg')}}" alt="Image" class="img-fluid mr-3">
-                <div>
-                  <h3>Allison Holmes</h3>
-                  <span>Designer</span>
-                </div>
-              </div>
-              <div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!</p>
-              </div>
-            </div>
-  
-            <div class="ftco-testimonial-1">
-              <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                <img src="{{ asset('front/images/person_4.jpg')}}" alt="Image" class="img-fluid mr-3">
-                <div>
-                  <h3>Allison Holmes</h3>
-                  <span>Designer</span>
-                </div>
-              </div>
-              <div>
-                <p>&ldquo;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!&rdquo;</p>
-              </div>
-            </div>
-  
-            <div class="ftco-testimonial-1">
-              <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                <img src="{{ asset('front/images/person_3.jpg')}}" alt="Image" class="img-fluid mr-3">
-                <div>
-                  <h3>Allison Holmes</h3>
-                  <span>Designer</span>
-                </div>
-              </div>
-              <div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!</p>
-              </div>
-            </div>
-  
-            <div class="ftco-testimonial-1">
-              <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                <img src="{{ asset('front/images/person_2.jpg')}}" alt="Image" class="img-fluid mr-3">
-                <div>
-                  <h3>Allison Holmes</h3>
-                  <span>Designer</span>
-                </div>
-              </div>
-              <div>
-                <p>&ldquo;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!&rdquo;</p>
-              </div>
-            </div>
-  
-            <div class="ftco-testimonial-1">
-              <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                <img src="{{ asset('front/images/person_4.jpg')}}" alt="Image" class="img-fluid mr-3">
-                <div>
-                  <h3>Allison Holmes</h3>
-                  <span>Designer</span>
-                </div>
-              </div>
-              <div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!</p>
-              </div>
-            </div>
-  
-          </div>
+          
+          @livewire('testimonials')
           
         </div>
       </div>

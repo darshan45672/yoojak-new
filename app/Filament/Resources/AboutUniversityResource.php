@@ -27,6 +27,7 @@ class AboutUniversityResource extends Resource
         return $form
             ->schema([
                 TextInput::make('title')->label('Title')->required(),
+                TextInput::make('link')->label('Link'),
                 RichEditor::make('content')->label('Description')->required()->columnSpan(2)
             ]);
     }
@@ -36,7 +37,7 @@ class AboutUniversityResource extends Resource
         return $table
             ->columns([
                 TextColumn::make('title'),
-                TextColumn::make('content'),
+                // TextColumn::make('content'),
             ])
             ->filters([
                 //
