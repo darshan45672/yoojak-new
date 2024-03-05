@@ -2,23 +2,20 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\AboutUniversityResource\Pages;
-use App\Filament\Resources\AboutUniversityResource\RelationManagers;
-use App\Models\AboutUniversity;
+use App\Filament\Resources\TestimonialResource\Pages;
+use App\Filament\Resources\TestimonialResource\RelationManagers;
+use App\Models\Testimonial;
 use Filament\Forms;
-use Filament\Forms\Components\RichEditor;
-use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
-use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
-class AboutUniversityResource extends Resource
+class TestimonialResource extends Resource
 {
-    protected static ?string $model = AboutUniversity::class;
+    protected static ?string $model = Testimonial::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
@@ -26,9 +23,7 @@ class AboutUniversityResource extends Resource
     {
         return $form
             ->schema([
-                TextInput::make('title')->label('Title')->required(),
-                TextInput::make('link')->label('Link'),
-                RichEditor::make('content')->label('Description')->required()->columnSpan(2)
+                //
             ]);
     }
 
@@ -36,8 +31,7 @@ class AboutUniversityResource extends Resource
     {
         return $table
             ->columns([
-                TextColumn::make('title'),
-                // TextColumn::make('content'),
+                //
             ])
             ->filters([
                 //
@@ -62,9 +56,9 @@ class AboutUniversityResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListAboutUniversities::route('/'),
-            'create' => Pages\CreateAboutUniversity::route('/create'),
-            'edit' => Pages\EditAboutUniversity::route('/{record}/edit'),
+            'index' => Pages\ListTestimonials::route('/'),
+            'create' => Pages\CreateTestimonial::route('/create'),
+            'edit' => Pages\EditTestimonial::route('/{record}/edit'),
         ];
     }
 }
