@@ -6,9 +6,15 @@ use App\Filament\Resources\TestimonialResource\Pages;
 use App\Filament\Resources\TestimonialResource\RelationManagers;
 use App\Models\Testimonial;
 use Filament\Forms;
+use Filament\Forms\Components\FileUpload;
+use Filament\Forms\Components\RichEditor;
+use Filament\Forms\Components\Select;
+use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\ImageColumn;
+use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
@@ -23,7 +29,14 @@ class TestimonialResource extends Resource
     {
         return $form
             ->schema([
-                //
+                TextInput::make('name')->label('Name')->required(),
+                TextInput::make('designation')->label('Designation')->required(),
+                RichEditor::make('content')->label('Content')->required()->columnSpan(2),
+                FileUpload::make('image')->label('Image')->required(),
+                Select::make('status')->label('Status')->options([
+                    1 => 'active',
+                    0 => 'inactive' ,
+                ])->required(),
             ]);
     }
 
@@ -31,7 +44,10 @@ class TestimonialResource extends Resource
     {
         return $table
             ->columns([
-                //
+                TextColumn::make('name')->label('Name'),   
+                TextColumn::make('designation')->label('Designation'),
+                // TextColumn::make('content')->label('Testimonial'), 
+                ImageColumn::make('image')->label('Image')->width(200)->height(100),   
             ])
             ->filters([
                 //
