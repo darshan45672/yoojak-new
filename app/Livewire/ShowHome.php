@@ -10,7 +10,7 @@ class ShowHome extends Component
 {
     public function render()
     {
-        $placedStudents = PlacedStudent::orderBy('id','ASC')->get();
+        $placedStudents = PlacedStudent::orderBy('id','ASC')->where('status',1)->get();
         return view('livewire.show-home',[
             'placedStudents' => $placedStudents,
         ]);
