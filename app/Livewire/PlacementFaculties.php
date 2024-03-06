@@ -2,12 +2,17 @@
 
 namespace App\Livewire;
 
+use App\Models\PlacementFaculty;
 use Livewire\Component;
 
 class PlacementFaculties extends Component
 {
     public function render()
     {
-        return view('livewire.placement-faculties');
+        $faculties = PlacementFaculty::get();
+        // dd($faculties);
+        return view('livewire.placement-faculties',[
+            'faculties' => $faculties,
+        ]);
     }
 }

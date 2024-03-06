@@ -41,8 +41,8 @@
                 </div>
                 <div class="feature-1-content">
                   <h2>Personalize Learning</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
-                  <p><a href="#" class="btn btn-primary px-4 rounded-0">Learn More</a></p>
+                  <p>We offer personlised training to students to perform well in their placements</p>
+                  <p><a href="https://ajiet.edu.in/pages/placement.php" class="btn btn-primary px-4 rounded-0">Learn More</a></p>
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="feature-1-content">
                   <h2>Trusted Courses</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
+                  <p>We offer trusted courses to our students to perform well in their placements.</p>
                   <p><a href="#" class="btn btn-primary px-4 rounded-0">Learn More</a></p>
                 </div>
               </div> 
@@ -67,7 +67,7 @@
                 </div>
                 <div class="feature-1-content">
                   <h2>Tools for Students</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
+                  <p>We offer personlised training to students to perform well in their placements</p>
                   <p><a href="#" class="btn btn-primary px-4 rounded-0">Learn More</a></p>
                 </div>
               </div> 
