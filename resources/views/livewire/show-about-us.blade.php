@@ -26,12 +26,7 @@
                     <span>Academics History</span>
                 </h2>
             </div>
-            <div class="col-lg-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, iure dolorum! Nam veniam tempore
-                    tenetur aliquam architecto, hic alias quia quisquam, obcaecati laborum dolores. Ex libero cumque
-                    veritatis numquam placeat?</p>
-            </div>
-            <div class="col-lg-4">
+            <div class="col-lg-8">
                 <p>Nam veniam tempore tenetur aliquam
                     architecto, hic alias quia quisquam, obcaecati laborum dolores. Ex libero cumque veritatis numquam
                     placeat?</p>
@@ -58,7 +53,7 @@
 
             <div class="row">
                 <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
-                    <img src="images/course_5.jpg" alt="Image" class="img-fluid">
+                    <img src="{{asset('front/images/course_5.jpg')}}" alt="Image" class="img-fluid">
                 </div>
                 <div class="col-lg-5 mr-auto align-self-center order-2 order-lg-1">
                     <h2 class="section-title-underline mb-5">
@@ -73,7 +68,7 @@
         </div>
     </div>
 
-    <div class="section-bg style-1" style="background-image: url('images/hero_1.jpg');">
+    <div class="section-bg style-1" style="background-image: url('{{ asset('front/images/hero_1.jpg') }}');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
@@ -105,7 +100,7 @@
             <div class="row mb-5 justify-content-center text-center">
                 <div class="col-lg-4 mb-5">
                     <h2 class="section-title-underline mb-5">
-                        <span>Our Teachers</span>
+                        <span>Our Faculties</span>
                     </h2>
                 </div>
             </div>
