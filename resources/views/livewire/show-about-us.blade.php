@@ -1,10 +1,10 @@
 <main>
     {{-- Be like water. --}}
     <div class="site-section ftco-subscribe-1 site-blocks-cover pb-4" style="background-image: url('images/bg_1.jpg')">
-        <div class="container">
-            <div class="row align-items-end">
-                <div class="col-lg-7">
-                    <h2 class="mb-0">About Us</h2>
+        <div class="mt-5 container">
+            <div class="mt-5 row align-items-end">
+                <div class="mt-5 col-lg-7">
+                    <h2 class="mt-5 mb-0">About Us</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 </div>
             </div>
