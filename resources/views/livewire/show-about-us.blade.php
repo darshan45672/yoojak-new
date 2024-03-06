@@ -1,6 +1,6 @@
 <main>
     {{-- Be like water. --}}
-    <div class="site-section ftco-subscribe-1 site-blocks-cover pb-4" style="background-image: url('images/bg_1.jpg')">
+    <div class="site-section ftco-subscribe-1 site-blocks-cover pb-4" style="background-image: url('{{ asset('front/images/bg_1.jpg') }}')">
         <div class="mt-5 container">
             <div class="mt-5 row align-items-end">
                 <div class="mt-5 col-lg-7">
