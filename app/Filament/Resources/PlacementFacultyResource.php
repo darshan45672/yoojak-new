@@ -35,8 +35,9 @@ class PlacementFacultyResource extends Resource
                     1 => 'Principle',
                     2 => 'Dean',
                     3 => 'Vice Principle',
-                    4 => 'Hod',
-                    5 => 'Placement Coordinator'
+                    4 => 'Placement Officer',
+                    5 => 'Hod',
+                    6 => 'Placement Coordinator'
                 ])
             ]);
     }
