@@ -18,7 +18,7 @@
                         <div class="feature-1-content">
                             <h2>{{ $faculty->name }}</h2>
                             <span class="position mb-3 d-block">{{ $faculty->designation }}</span>
-                            <p>{{ $faculty->role }}</p>
+                            {{-- <p>{{ $faculty->role }}</p> --}}
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
                         <div class="feature-1-content">
                             <h2>{{ $faculty->name }}</h2>
                             <span class="position mb-3 d-block">{{ $faculty->designation }}</span>
-                            <p>{{ $faculty->role }}</p>
+                            {{-- <p>{{ $faculty->role }}</p> --}}
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                         <div class="feature-1-content">
                             <h2>{{ $faculty->name }}</h2>
                             <span class="position mb-3 d-block">{{ $faculty->designation }}</span>
-                            <p>{{ $faculty->role }}</p>
+                            {{-- <p>{{ $faculty->role }}</p> --}}
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                         <div class="feature-1-content">
                             <h2>{{ $faculty->name }}</h2>
                             <span class="position mb-3 d-block">{{ $faculty->designation }}</span>
-                            <p>{{ $faculty->role }}</p>
+                            {{-- <p>{{ $faculty->role }}</p> --}}
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
                         <div class="feature-1-content">
                             <h2>{{ $faculty->name }}</h2>
                             <span class="position mb-3 d-block">{{ $faculty->designation }}</span>
-                            <p>{{ $faculty->role }}</p>
+                            {{-- <p>{{ $faculty->role }}</p> --}}
                         </div>
                     </div>
                 </div>

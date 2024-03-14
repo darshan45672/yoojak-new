@@ -28,7 +28,7 @@
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="course-1-item">
                         <figure class="thumnail">
-                            <a href="course-single.html"><img src="{{ asset('storage/'.$placement->image) }}" alt="Image" class="img-fluid"></a>
+                            <a href="course-single.html"><img src="{{ asset('storage/'.$placement->image) }}" alt="Image" class="img-fluid" style="height: 200px; width:200px"></a>
                             <div class="price">{{ $placement->package }}</div>
                             <div class="category">
                                 <h3>{{ $placement->company_name }}</h3>
