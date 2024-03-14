@@ -37,6 +37,7 @@
                         <div class="course-1-content pb-4">
                             <h2>{{ $placement->job_role }}</h2>
                             <p class="desc mb-4">{{ $placement->short_desc }}</p>
+                            <p class="desc mb-4"><b>Date: </b>{{ $placement->date}}</p>
                             <p><a target="blank" href="{{ $placement->link }}" class="btn btn-primary rounded-0 px-4">Register</a></p>
                         </div>
                     </div>  
