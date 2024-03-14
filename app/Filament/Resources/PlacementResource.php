@@ -6,12 +6,14 @@ use App\Filament\Resources\PlacementResource\Pages;
 use App\Filament\Resources\PlacementResource\RelationManagers;
 use App\Models\Placement;
 use Filament\Forms;
+use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\ImageColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
@@ -28,6 +30,7 @@ class PlacementResource extends Resource
         return $form
             ->schema([
                 TextInput::make('company_name')->label('Company Name')->required(),
+                FileUpload::make('image')->label('Company Image')->required(),
                 TextInput::make('job_role')->label('Job Role')->required(),
                 TextInput::make('package')->label('Package Offered')->required(),
                 TextInput::make('date')->placeholder('YYYY/MM/DD')->label('Date of Placement')->required(),
@@ -45,6 +48,7 @@ class PlacementResource extends Resource
     {
         return $table
             ->columns([
+                ImageColumn::make('image')->width(100),
                 TextColumn::make('company_name')->label('Company'),
                 TextColumn::make('short_desc')->label('Short Description'),
             ])

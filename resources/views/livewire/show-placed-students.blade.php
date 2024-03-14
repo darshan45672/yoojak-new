@@ -30,7 +30,7 @@
                     <div class="course-1-item">
                         <figure class="thumnail">
                             <a href="course-single.html"><center><img src="{{ asset('storage/' .$placedStudent->image) }}" alt="Image"
-                                    class="img-fluid" style="height: 200px; width: 200px"></center></a>
+                                    class="img-fluid" style="height: 200px; width:200px"></center></a>
                             <div class="price">{{ $placedStudent->package }}</div>
                             <div class="category text-center">
                                 <h3>{{ $placedStudent->company }}</h3>

@@ -3,7 +3,7 @@
     <div class="site-section">
         <div class="container">
             <div class="row mb-5 justify-content-center text-center">
-                <div class="col-lg-4 mb-5">
+                <div class="col-lg-6 mb-5">
                     <h2 class="section-title-underline mb-5">
                         <span>Our Faculties and Coordinators</span>
                     </h2>
