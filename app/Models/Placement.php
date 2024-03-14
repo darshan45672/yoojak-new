@@ -9,5 +9,5 @@ class Placement extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['company_name','job_role','package','date','short_desc','description','link'];
+    protected $fillable = ['company_name','job_role','package','date','short_desc','description','link','image','status'];
 }
