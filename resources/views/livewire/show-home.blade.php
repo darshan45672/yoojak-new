@@ -102,19 +102,17 @@
             <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
               <span class="icon flaticon-mortarboard"></span>
               <h3>Our Philosphy</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea? Dolore, amet reprehenderit.</p>
+              <p>In seeking understanding, fostering empathy, and embracing growth, we navigate the journey of life with purpose and grace.</p>
             </div>
             <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
               <span class="icon flaticon-school-material"></span>
               <h3>Academics Principle</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-                Dolore, amet reprehenderit.</p>
+              <p>Through rigorous inquiry, disciplined study, and intellectual integrity, we uphold the pursuit of knowledge as a sacred duty.</p>
             </div>
             <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
               <span class="icon flaticon-library"></span>
               <h3>Key of Success</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-                Dolore, amet reprehenderit.</p>
+              <p>Dedication, resilience, and a commitment to excellence unlock the doors to triumph in every endeavor.</p>
             </div>
           </div>
         </div>

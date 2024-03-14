@@ -11,10 +11,11 @@
                 </div>
                 <div class="col-lg-8">
                     <p class="lead">{!! $about->content !!}</p>
-                    @if ($about->link != "")
+                    @if ($about->link)
                     <p><a target="blank" href="{{ $about->link }}">Read more</a></p>
+                    @else
+                    <p><a target="blank" href="https://vtu.ac.in/en/about-vtu/">Read more</a></p>
                     @endif
-                    <p><a target="blank" href="https://ajiet.edu.in/">Read more</a></p>
                 </div>
             </div>
         </div>
