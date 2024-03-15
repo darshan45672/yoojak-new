@@ -5,7 +5,7 @@
             <div class="mt-5 row align-items-end">
                 <div class="mt-5 col-lg-7">
                     <h2 class="mt-5 mb-0">About Us</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <p>Learn about our journey, values, and mission dedicated to empowering students through education and innovation.</p>
                 </div>
             </div>
         </div>

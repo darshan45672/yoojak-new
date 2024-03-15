@@ -5,7 +5,7 @@
             <div class="row align-items-end">
                 <div class="mt-5 mb-5 col-lg-7">
                     <h2 class="mb-0">Placement</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <p>Explore our comprehensive placement assistance program tailored to guide and support students toward fulfilling career opportunities.</p>
                 </div>
             </div>
         </div>
