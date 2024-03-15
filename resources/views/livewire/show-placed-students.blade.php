@@ -6,7 +6,7 @@
             <div class="row align-items-end">
                 <div class="mt-5 mb-5 col-lg-7">
                     <h2 class="mb-0">Placed Students</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <p>Discover the success stories of our alumni, thriving in diverse fields worldwide, a testament to our commitment to fostering excellence.</p>
                 </div>
             </div>
         </div>

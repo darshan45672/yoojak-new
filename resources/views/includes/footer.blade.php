@@ -3,35 +3,33 @@
       <div class="row">
         <div class="col-lg-3">
           <p class="mb-4"><img src="{{ asset('front/images/logo.png')}}" alt="Image" class="img-fluid"></p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>  
-          <p><a href="#">Learn More</a></p>
+          <p>Stay connected and explore more with our latest updates, resources, and social media links in the footer below.</p>  
+          <p><a href="https://ajiet.edu.in/">Learn More</a></p>
         </div>
         <div class="col-lg-3">
-          <h3 class="footer-heading"><span>Our Campus</span></h3>
+          <h3 class="footer-heading"><span>Our College</span></h3>
           <ul class="list-unstyled">
-              <li><a href="#">Acedemic</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Our Interns</a></li>
-              <li><a href="#">Our Leadership</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Human Resources</a></li>
+              <li><a href="">Our Institution</a></li>
+              <li><a href="{{ route('show-Placement') }}">Our Placements</a></li>
+              <li><a href="{{ route('show-PlacedStudent') }}">Our Placed Students</a></li>
+              <li><a href="{{ route('show-PlacedStudent') }}">Our Students</a></li>
           </ul>
         </div>
         <div class="col-lg-3">
-            <h3 class="footer-heading"><span>Our Courses</span></h3>
+            <h3 class="footer-heading"><span>Our Branches</span></h3>
             <ul class="list-unstyled">
-                <li><a href="#">Math</a></li>
-                <li><a href="#">Science &amp; Engineering</a></li>
-                <li><a href="#">Arts &amp; Humanities</a></li>
-                <li><a href="#">Economics &amp; Finance</a></li>
-                <li><a href="#">Business Administration</a></li>
-                <li><a href="#">Computer Science</a></li>
+                <li><a href="#">Computer Science &amp; Engineering</a></li>
+                <li><a href="#">Information Science &amp; Engineering</a></li>
+                <li><a href="#">Electronics &amp; Communication Engineering</a></li>
+                {{-- <li><a href="#">Artificial &amp; Machine Learning Engineering</a></li>
+                <li><a href="#">Artificial &amp; Data Science Engineering</a></li>
+                <li><a href="#">IoT, Cybersecurity &amp; Blockchain Engineering</a></li> --}}
             </ul>
         </div>
         <div class="col-lg-3">
             <h3 class="footer-heading"><span>Contact</span></h3>
             <ul class="list-unstyled">
-                <li><a href="#">Help Center</a></li>
+                <li><a href="{{ route('contact') }}">Help Center</a></li>
                 <li><a href="#">Support Community</a></li>
                 <li><a href="#">Press</a></li>
                 <li><a href="#">Share Your Story</a></li>

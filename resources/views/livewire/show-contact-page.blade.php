@@ -6,7 +6,7 @@
             <div class="mt-5 row align-items-end">
                 <div class=" mt-5 col-lg-7">
                     <h2 class=" mt-5 mb-0">Contact</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <p>Have a question, suggestion, or simply want to connect? Reach out to us; we're here to listen and assist.</p>
                 </div>
             </div>
         </div>

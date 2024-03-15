@@ -5,7 +5,7 @@
             <div class="row align-items-end">
                 <div class="mt-5 mb-5 col-lg-7">
                     <h2 class="mb-0">Placement</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <p>Explore our comprehensive placement assistance program tailored to guide and support students toward fulfilling career opportunities.</p>
                 </div>
             </div>
         </div>
@@ -37,6 +37,7 @@
                         <div class="course-1-content pb-4">
                             <h2>{{ $placement->job_role }}</h2>
                             <p class="desc mb-4">{{ $placement->short_desc }}</p>
+                            <p class="desc mb-4"><b>Date: </b>{{ $placement->date}}</p>
                             <p><a target="blank" href="{{ $placement->link }}" class="btn btn-primary rounded-0 px-4">Register</a></p>
                         </div>
                     </div>  

@@ -118,7 +118,7 @@
         </div>
       </div>
 
-      @include('includes.placementUpdate')
+      {{-- @include('includes.placementUpdate') --}}
   
       <div class="site-section ftco-subscribe-1" style="background-image: url('{{ asset('front/images/bg_1.jpg') }}')">
         <div class="container">
